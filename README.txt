@@ -50,9 +50,9 @@ review/text                the full text of a review
 
 FILE 2: “BOOK DATA”
 From source:
-The second file Books Details file contains details information about 212404 unique books it file is built by using google books API to get details information about books it rated in the first file
+The second file Books Details file contains details information about 212404 unique books 
+this file is built by using google books API to get details information about books it rated in the first file
 and this file contains
-
 
 Features                Description
 Title                        Book Title
@@ -71,8 +71,9 @@ Please refer to ‘EDA’ notebook for further data insights
 
 
 Notebooks:
-EDA
-(WIP)
+1. 'EDA' = basic data cleaning, exploratory data analysis of the two original data sets, and combining said data sets into one dataframe.
+2. 'Text Data Analysis' = preparing text data for model use
+3. (WIP) *text data analysis notebook might be lengthened to include modelling, as opposed to having a separate notebook*
 
 
 Environments:
