@@ -15,7 +15,7 @@ This project would benefit people struggling to choose the next book to read. Sp
 The Big Idea: 
 
 
-A machine learning categorical prediction can be used to answer the problem statement, “Can we use customer book review comments to predict the book’s rating score?” The target variable is the book’s (average) rating score. Following EDA (see ‘EDA’ notebook) is the biggest step needed to reach this goal: NLP in the form of text embedding and sentiment classification. 
+A machine learning categorical prediction can be used to answer the problem statement, “Can we use customer book review comments to return a set number of  book recommendations?”  The target variable is the book’s (average) rating score. Following EDA (see ‘EDA’ notebook) is the biggest step needed to reach this goal: NLP in the form of text embedding and sentiment classification (see 'Text_Data_Analysis' notebook). 
 Following this is creating the model and testing. (WIP)
 
 
@@ -33,7 +33,6 @@ From source:
 The first file** reviews** file contain feedback about 3M user on 212404 unique books the data set is part of the Amazon review Dataset it contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014.
 and this file has these attributes
 
-
 FILE 1: “BOOKS RATING”
 Features                Description
 id                        The Id of Book
@@ -46,7 +45,7 @@ review/score                rating from 0 to 5 for the book
 review/time                time of given the review
 review/summary        the summary of a text review
 review/text                the full text of a review
-
+Please refer to ‘EDA’ notebook for further data insights
 
 FILE 2: “BOOK DATA”
 From source:
@@ -65,16 +64,18 @@ publishedDate                the date of publish
 infoLink                link to get more information about the book on google books
 categories                genres of books
 ratingsCount                averaging rating for book
-
-
 Please refer to ‘EDA’ notebook for further data insights
+
+FILE 3: "combined_book_data_cleaned"
+This is the cleaned and final output of the EDA notebook. 
+
 
 
 Notebooks:
 1. 'EDA' = basic data cleaning, exploratory data analysis of the two original data sets, and combining said data sets into one dataframe.
 2. 'Text Data Analysis' = preparing text data for model use
-3. (WIP) *text data analysis notebook might be lengthened to include modelling, as opposed to having a separate notebook*
+3. (WIP) *text data analysis notebook might be lengthened to include modeling, as opposed to having a separate notebook*
 
 
 Environments:
-WIP
+WIP (I am currently using google colab)
